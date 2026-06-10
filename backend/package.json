@@ -5,10 +5,12 @@
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
+    "@sailshq/lodash": "^3.10.6",
+    "dotenv": "^17.4.2",
     "sails": "^1.5.18",
     "sails-hook-orm": "^4.0.3",
     "sails-hook-sockets": "^3.0.0",
-    "@sailshq/lodash": "^3.10.6"
+    "sails-postgresql": "^5.0.1"
   },
   "devDependencies": {
     "eslint": "5.16.0"
