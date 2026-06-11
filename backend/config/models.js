@@ -1,9 +1,8 @@
 
 module.exports.models = {
   migrate: 'safe',
+  schema: true,
   attributes: {
-    createdAt: { type: 'number', autoCreatedAt: true },
-    updatedAt: { type: 'number', autoUpdatedAt: true },
-    id: { type: 'string', columnName: 'id' },
+    id: { type: 'string', required: true, columnName: 'id' },
   },
 };
